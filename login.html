@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Store</title>
+  </head>
+  <body>
+    <ul class="topnav">
+      <li><a class="active" href="index.html">Home</a></li>     
+      <li class="right"><a  href="order.html">Track Order</a></li>
+      <li class="right"><a  href="index.html">Help</a></li>
+      <li class="right"><a  href="login.html">Login</a></li>
+    </ul>
+
+      <div class="container">
+        <form>
+          <div class="row">
+            <h2 style="text-align:center">Login or Sign Up!</h2>
+
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="button" onclick="login()" value="Login">
+      
+          </div>
+        </form>
+      </div>
+      
+      <div class="bottom-container">
+        <div class="row">
+          <div class="col">
+            <a href="signup.html" style="color:white" class="btn">Sign up</a>
+          </div>
+          <div class="col">
+            <a href="#" style="color:white" class="btn">Forgot password?</a>
+          </div>
+        </div>
+      </div>
+
+  <script src="login.js"></script>
+    
+</body>
+</html>
